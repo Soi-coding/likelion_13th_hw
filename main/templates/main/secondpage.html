@@ -1,0 +1,56 @@
+    {% extends 'base.html' %}
+    {% load static %}
+    {% block content %}
+    <img src="{% static 'images/babylion.png' %}" alt="babylion" width="100px">
+    <h1 class="contents">2025 멋쟁이사자처럼 13기</h1>
+    <div class="contents">This is Second Page</div>
+    
+    <h1 class="title">
+        <span class="emoji">✏️</span> 그동안의 순간들 <span class="emoji">✏️</span>
+    </h1>
+    <div class="weeks-container">
+        <!-- 0주차 -->
+        <div class="week-box">
+            <h2>✨ 0주차 ✨</h2>
+            <div class="image-group">
+                <img src="{% static 'images/session0-1.png' %}" alt="session0-1" width="100px">
+                <img src="{% static 'images/session0-2.png' %}" alt="session0-2" width="100px">
+            </div>
+            <ul>
+                <li>#멋사 첫 만남 #오리엔테이션</li>
+                <li>#1분 자기소개 #너무 귀여운 기념품까지</li>
+            </ul>
+        </div>
+    
+        <!-- 1주차 -->
+        <div class="week-box">
+            <h2>✨ 1주차 ✨</h2>
+            <div class="image-group">
+                <img src="{% static 'images/session1.png' %}" alt="session1" width="100px">
+            </div>
+            <ul>
+                <li>??: 너 이해했어?</li>
+                <li>??: 아니 이해못했는데?</li>
+                <li>??: 복습만이.. 살길이다..</li>
+            </ul>
+        </div>
+    
+        <!-- 2주차 -->
+        <div class="week-box">
+            <h2>✨ 2주차 ✨</h2>
+            <div class="image-group">
+                <img src="{% static 'images/session2-1.png' %}" alt="session2-1" width="100px">
+                <img src="{% static 'images/session2-2.png' %}" alt="session2-2" width="100px">
+            </div>
+            <ul>
+                <li>??: gitignore가 뭐다?</li>
+                <li>??: 노충돌 노충돌!</li>
+                <br>
+                <li>+배경색깔이 하얀색이 나와 당황한 나 ^_^</li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+    {% endblock %}
